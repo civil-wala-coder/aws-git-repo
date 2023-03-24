@@ -9,6 +9,6 @@ public class HomeController {
 
     @RequestMapping
     public String getDemo(){
-        return "welcome aws !!";
+        return "welcome aws testing !!";
     }
 }
