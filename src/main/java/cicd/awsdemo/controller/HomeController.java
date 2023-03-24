@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @RequestMapping("/api")
+    @RequestMapping
     public String getDemo(){
         return "welcome aws !!";
     }
